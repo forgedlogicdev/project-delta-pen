@@ -2,6 +2,8 @@
 > **STATUS: ACTIVE R&D**  
 > High-precision, ergonomic, motorized coaxial TIG filler wire feeder powered by RP2040 and closed-loop force sensing feedback.
 
+![Project Delta Pen (DP-1) Mockup](assets/chassis_render.png)
+
 ---
 
 ## System Overview
@@ -39,8 +41,10 @@ peaceful-franklin/
 ├── firmware/               # Microcontroller firmware
 │   └── main.py             # CircuitPython RP2040 control loop
 └── assets/                 # Schematics and visual guides
+    ├── chassis_render.png  # High-fidelity industrial design mockup
     └── connection_map.png  # Wiring diagrams
 ```
+
 
 ---
 
