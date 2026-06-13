@@ -1,0 +1,21 @@
+# Core build artifacts
+build/
+.bin/
+*.elf
+*.uf2
+*.map
+
+# Editor and System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dependencies
+pico-sdk/
+
+# Python caching & environments
+__pycache__/
+*.pyc
+.venv/
+venv/
