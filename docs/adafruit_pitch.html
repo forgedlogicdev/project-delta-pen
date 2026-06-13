@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Project Delta Pen - Adafruit Showcase</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: #0d1117; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #0d1117; padding: 40px 20px;">
+    <tr>
+      <td align="center">
+        <!-- Main Email Container Card -->
+        <table width="600" border="0" cellspacing="0" cellpadding="0" style="background-color: #161b22; border: 1px solid #30363d; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.5);">
+          
+          <!-- Header Banner -->
+          <tr>
+            <td style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); padding: 30px; border-bottom: 3px solid #00e5ff; text-align: center;">
+              <img src="https://raw.githubusercontent.com/forgedlogicdev/forgedlogicdev/main/avatar.png" width="80" height="80" style="border-radius: 50%; border: 2px solid #00e5ff;" alt="ForgedLogic Logo">
+              <h1 style="color: #ffffff; margin: 10px 0 5px 0; font-size: 24px; letter-spacing: 1px;">FORGED LOGIC</h1>
+              <p style="color: #8b949e; margin: 0; font-size: 14px; text-transform: uppercase; letter-spacing: 2px;">Systems Architecture & R&D</p>
+            </td>
+          </tr>
+
+          <!-- Body Content -->
+          <tr>
+            <td style="padding: 40px 30px;">
+              <p style="color: #00e5ff; font-size: 14px; margin-top: 0; font-weight: bold; letter-spacing: 1px;">PROJECT SHOWCASE // RP2040 &amp; CIRCUITPYTHON</p>
+              <h2 style="color: #ffffff; font-size: 22px; margin-top: 10px; margin-bottom: 20px; font-weight: 600;">Motorized Coaxial TIG Welding Pen</h2>
+              
+              <p style="color: #c9d1d9; font-size: 16px; line-height: 1.6; margin-bottom: 25px;">
+                Hi Adafruit Team,
+                <br><br>
+                I wanted to share a custom fabrication tool I've built that leverages the power of CircuitPython and the RP2040 in a high-stress, real-world application: <strong>Project Delta Pen (DP-1)</strong>.
+              </p>
+
+              <!-- Mockup Image Showcase Card -->
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; margin-bottom: 30px;">
+                <tr>
+                  <td style="padding: 15px; text-align: center;">
+                    <img src="https://raw.githubusercontent.com/forgedlogicdev/project-delta-pen/main/assets/chassis_render.png" width="100%" style="max-width: 500px; border-radius: 4px;" alt="DP-1 Product Render">
+                    <p style="color: #8b949e; font-size: 12px; margin: 10px 0 0 0;">Figure 1.0: DP-1 Coaxial Wire Feeder powered by CircuitPython</p>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Tech Highlights Box -->
+              <h3 style="color: #00e5ff; font-size: 16px; margin-bottom: 10px; text-transform: uppercase;">How We Built It</h3>
+              <table width="100%" border="0" cellspacing="0" cellpadding="5" style="color: #c9d1d9; font-size: 14px; margin-bottom: 35px;">
+                <tr>
+                  <td width="30%" style="font-weight: bold; color: #ffffff; border-bottom: 1px solid #21262d;">Processor:</td>
+                  <td style="border-bottom: 1px solid #21262d;">RP2040 microcontroller running a low-latency state machine.</td>
+                </tr>
+                <tr>
+                  <td style="font-weight: bold; color: #ffffff; border-bottom: 1px solid #21262d;">Control Loop:</td>
+                  <td style="border-bottom: 1px solid #21262d;">CircuitPython script mapping analog FSR grip force directly to step intervals.</td>
+                </tr>
+                <tr>
+                  <td style="font-weight: bold; color: #ffffff; border-bottom: 1px solid #21262d;">Safety:</td>
+                  <td style="border-bottom: 1px solid #21262d;">GPIO hardware safety interrupt (Pulse-Dab Switch) to halt stepper drivers instantly.</td>
+                </tr>
+              </table>
+
+              <p style="color: #c9d1d9; font-size: 16px; line-height: 1.6; margin-bottom: 30px;">
+                We've open-sourced our repository detailing the assembly files and firmware control loops:
+              </p>
+
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom: 30px;">
+                <tr>
+                  <td align="center">
+                    <a href="https://github.com/forgedlogicdev/project-delta-pen" target="_blank" style="background-color: #00e5ff; color: #0d1117; font-weight: bold; text-decoration: none; padding: 15px 35px; border-radius: 4px; font-size: 16px; display: inline-block; box-shadow: 0 4px 10px rgba(0, 229, 255, 0.3);">VIEW GITHUB REPOSITORY</a>
+                  </td>
+                </tr>
+              </table>
+
+              <p style="color: #c9d1d9; font-size: 16px; line-height: 1.6; margin-bottom: 0;">
+                I'd love to know if this is something you would be open to featuring on your Show and Tell, or if you have any feedback on the design.
+              </p>
+
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="background-color: #0d1117; padding: 20px; text-align: center; border-top: 1px solid #30363d;">
+              <p style="color: #8b949e; font-size: 12px; margin: 0;">&copy; 2026 ForgedLogic R&D. Powered by CircuitPython.</p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
