@@ -12,14 +12,15 @@ Project Delta Pen (DP-1) is a handheld, motorized welding wire feeder designed t
 
 ```mermaid
 graph LR
-    User([User Finger Force]) -->|Pressure| FSR[FSR Strip GPIO 26]
-    FSR -->|Analog Signal| MCU[RP2040 Microcontroller]
-    Switch[Pulse-Dab Switch GPIO 15] -->|Hardware Interrupt| MCU
-    MCU -->|PWM/Pulse| Driver[TMC2209 Driver]
-    Driver -->|Torque| Motor[NEMA 8 Motor]
-    Motor -->|Direct Drive| Pinch[Pinch Wheel Mechanism]
-    Pinch -->|Coaxial Path| Wire[TIG Filler Wire]
+    User(["User Finger Force"]) -->|Pressure| FSR["FSR Strip GPIO 26"]
+    FSR -->|Analog Signal| MCU["RP2040 Microcontroller"]
+    Switch["Pulse-Dab Switch GPIO 15"] -->|Hardware Interrupt| MCU
+    MCU -->|PWM/Pulse| Driver["TMC2209 Driver"]
+    Driver -->|Torque| Motor["NEMA 8 Motor"]
+    Motor -->|Direct Drive| Pinch["Pinch Wheel Mechanism"]
+    Pinch -->|Coaxial Path| Wire["TIG Filler Wire"]
 ```
+
 
 ---
 
